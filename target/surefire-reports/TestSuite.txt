@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.874 s <<< FAILURE! - in TestSuite
+New_Customer_01_Verify_Name_Field(NewCustomer.New_Customer_01)  Time elapsed: 2.827 s  <<< FAILURE!
+java.lang.AssertionError: expected [First character can not be space...] but found [First character can not have space]
+	at NewCustomer.New_Customer_01.New_Customer_01_Verify_Name_Field(New_Customer_01.java:72)
+

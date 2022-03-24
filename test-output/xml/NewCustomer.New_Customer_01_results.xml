@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.830">
+  <properties />
+  
+  
+            <testcase name="New_Customer_02_Verify_City_Field" time="2.046" classname="NewCustomer.New_Customer_01" />
+                <testcase name="New_Customer_01_Verify_Name_Field" time="4.784" classname="NewCustomer.New_Customer_01" />
+      
+</testsuite>

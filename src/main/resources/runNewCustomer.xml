@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NewCustomer">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <listener class-name="reportConfig.ExtentTestListener" />
+        <listener class-name="commons.MethodListener" />
+
+    </listeners>
+ <parameter name="url" value="https://demo.guru99.com/"/>
+
+  <test name="Run on Chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="NewCustomer.New_Customer_01"/>
+    </classes>
+
+  </test>
+
+
+
+
+</suite>

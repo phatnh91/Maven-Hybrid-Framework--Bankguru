@@ -43,6 +43,11 @@ public class New_Customer_01 extends BaseTest {
         ExtentTestManager.endTest();
     }
 
+    @Test
+    public void New_Customer_02_Verify_Webhub(Method method) {
+
+    }
+
     @AfterClass(alwaysRun = true)
     public void afterClass() {
         driver.quit();

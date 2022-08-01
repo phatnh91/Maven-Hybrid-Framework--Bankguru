@@ -117,7 +117,6 @@ public class BaseTest {
 //            options.setExperimentalOption("useAutomationExtension", false);
 //            options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 //            driver = new ChromeDriver(options);
-//
 //        }
 //        else if(browserName.equals("h_chrome")) {
 //            WebDriverManager.chromedriver().setup();

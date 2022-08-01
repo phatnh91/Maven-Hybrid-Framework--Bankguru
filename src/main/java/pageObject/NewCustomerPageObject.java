@@ -16,10 +16,8 @@ public class NewCustomerPageObject extends BasePage {
     }
 
     public void pressTabKeyonCustomerName() {
-
         waitForElementVisible(driver, NewCustomerPageUI.CUSTOMER_NAME_TEXTBOX);
         getWebElement(driver, NewCustomerPageUI.CUSTOMER_NAME_TEXTBOX).sendKeys(Keys.TAB);
-
     }
 
     public String getCustomerNameErrorMessage() {

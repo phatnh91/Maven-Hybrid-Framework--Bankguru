@@ -21,8 +21,7 @@ public class ChromeDriverManager implements BrowserFactory{
         prefs.put("credentials_enable_service",false);
         prefs.put("profile.password_manager_enabled",false);
         options.setExperimentalOption("prefs", prefs);
-        options.setExperimentalOption("useAutomationExtension", false);
         options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
-        return new ChromeDriver();
+        return new ChromeDriver(options);
     }
 }

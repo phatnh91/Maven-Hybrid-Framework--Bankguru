@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="8.636">
+           time="11.729">
   <properties />
   
   
-            <testcase name="New_Customer_02_Verify_City_Field" time="2.679" classname="NewCustomer.New_Customer_01" />
-                <testcase name="New_Customer_01_Verify_Name_Field" time="5.957" classname="NewCustomer.New_Customer_01" />
+            <testcase name="New_Customer_02_Verify_City_Field" time="2.870" classname="NewCustomer.New_Customer_01" />
+                <testcase name="New_Customer_01_Verify_Name_Field" time="8.859" classname="NewCustomer.New_Customer_01" />
       
 </testsuite>

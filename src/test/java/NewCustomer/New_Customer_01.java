@@ -44,7 +44,12 @@ public class New_Customer_01 extends BaseTest {
     }
 
     @Test
-    public void New_Customer_02_Verify_Webhub(Method method) {
+    public void New_Customer_02_Verify_Webhub_1(Method method) {
+
+    }
+
+    @Test
+    public void New_Customer_03_Verify_Webhub_2(Method method) {
 
     }
 

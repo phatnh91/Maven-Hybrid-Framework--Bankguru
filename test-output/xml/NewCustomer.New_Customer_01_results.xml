@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Run on Chrome"
-           tests="1"
+<testsuite name="Run on Edge"
+           tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="4.854">
+           time="3.038">
   <properties />
   
   
-            <testcase name="New_Customer_01_Verify_When_Login_Successfull" time="4.854" classname="NewCustomer.New_Customer_01" />
+            <testcase name="New_Customer_03_Verify_Webhub_2" time="0.000" classname="NewCustomer.New_Customer_01" />
+                <testcase name="New_Customer_01_Verify_When_Login_Successfull" time="3.038" classname="NewCustomer.New_Customer_01" />
+                <testcase name="New_Customer_02_Verify_Webhub_1" time="0.000" classname="NewCustomer.New_Customer_01" />
       
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NewCustomer">
+<suite name="NewCustomer" parallel="tests" thread-count="2">
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter" />
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
@@ -14,6 +14,13 @@
       <class name="NewCustomer.New_Customer_01"/>
     </classes>
   </test>
+
+    <test name="Run on Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="NewCustomer.New_Customer_01"/>
+        </classes>
+    </test>
 
 
 
